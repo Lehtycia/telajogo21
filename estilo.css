@@ -1,27 +1,28 @@
-.mesa{
-    position: fixed;
-    width:900px;
-    height:600px;
-    background-color: green;
+.mesa{ // definindo classe mesa
+    position: fixed; // definindo a posição da class está fixa não muda preenche a tela
+    width:900px; // define a largura
+    height:600px; // define a largura 
+    background-color: green; // define a cor de fundo 
       }
-.robot{
-   position: relative;
-   top:5px;
-   left:15px;
-   width:160px;
-   height:60px;
-   background-color: black;  }      
-.jogador{
-    position: relative;
-    top:390px;
-    left:15px;
-    width:160px;
-    height:60px;
-    background-color: black; }   
-.baralho{
-    position: relative;
-    top:200px;
-    left:315px;
-    width:60px;
-    height:80px;
-    background-color:yellow;}   
+.robot{ // define a calsse robot
+   position: relative; // define a posição
+   top:5px; // define o top
+   left:15px; // define a posição a quantidade de pixes os coloca mais para o lado esquerdo 
+       //ou seja o desenho vai ficar mais para o lado esquerdo
+   width:160px; //  define a largura 
+   height:60px; // define a altura 
+   background-color: black;  }      // define a cor de fundo  
+.jogador{ // define a classe jogador 
+    position: relative; // define a posição que é relativa eu vou determinar
+    top:390px; // define o topo
+    left:15px; // define o lado esquerdo
+    width:160px; // define a largura
+    height:60px; // define a altura
+    background-color: black; }  // define a cor do fundo da tela  
+.baralho{ // define a classe baralho
+    position: relative; // define a posição
+    top:200px; // define o topo da imagem
+    left:315px; // define o lado esquerdo 
+    width:60px; // define a largura 
+    height:80px; // define a altura
+    background-color:yellow;}  // define a cor do fundo que é amarela 
